@@ -1,0 +1,14 @@
+var game = new Phaser.Game(768, 768, Phaser.AUTO);
+game.state.add('titleLevel', demo.titleLevel);
+game.state.add('controls', demo.controls);
+game.state.add('credits', demo.credits);
+game.state.add('level0', demo.level0);
+game.state.add('level1', demo.level1);
+game.state.add('level2', demo.level2);
+game.state.add('level3', demo.level3);
+game.state.add('level4', demo.level4);
+game.state.add('gameOver', demo.gameOver);
+game.state.add('nextLevel', demo.nextLevel); 
+game.state.add('complete', demo.complete);
+//game.state.start('titleLevel');
+game.state.start('titleLevel');
